@@ -1,7 +1,7 @@
 body {
   background-color: rgb(226, 225, 225);
   padding-left: 132px;
-  padding-top: 15px;
+  padding-top: 150px;
 }
 h1 {
   font-family: serif;
@@ -10,13 +10,12 @@ h1 {
   line-height: 46px;
   color: #000;
   margin: 0;
-  /* margin-bottom: 70px; */
-  margin-bottom: 7px;
+  margin-bottom: 70px;
 }
 .inputs-block {
   display: flex;
   align-items: flex-end;
-  /* margin-bottom: 60px; */
+  margin-bottom: 60px;
   margin: 10px;
   padding: 10px;
 
@@ -26,12 +25,10 @@ h1 {
   max-width: 255px;
 }
 .input-item-title {
-  /* margin-bottom: 30px; */
-  margin: 3px;
-  padding: 3px;
+  margin-bottom: 10px;
   font-family: montserrat;
   font-size: 18px;
-  line-height: 22;
+  line-height: 22px;
   color: #000;
 }
 input {
@@ -44,9 +41,7 @@ input {
   font-size: 16px;
   line-height: 20;
   color: #000;
-  /* padding-left: 18px; */
-  padding:0 0 0 18px;
-  margin: 0;
+  padding-left: 18px;
   width: 100%;
 }
 #add-word-btn {
