@@ -24,9 +24,9 @@ const addWordToTable = (index) => {
   `;
 };
 
-words.forEach((element,i) => {
-  addWordToTable(i)
-})
+words.forEach((element, i) => {
+  addWordToTable(i);
+});
 
 addButton.addEventListener("click", () => {
   if (
@@ -54,3 +54,25 @@ function CreateWord(english, russian) {
   this.english = english;
   this.russian = russian;
 }
+
+const deleteWord = (e) => {
+  // console.log(e.target);
+  const rowIndex = e.target.parentNode.parentNode.rowIndex;
+  // console.log(rowIndex);
+  e.target.parentNode.parentNode.parentNode.remove()
+  words.splice(rowIndex, 1);
+  localStorage.removeItem('words')
+  localStorage.setItem('words',JSON.stringify(words));
+};
+
+const addEventDelete = () => {
+  if (words.length > 0) {
+    btnDelete = document.querySelectorAll(".btn-delete");
+    for (let btn of btnDelete) {
+      btn.addEventListener("click", (e) => {
+        deleteWord(e);
+      });
+    }
+  }
+};
+addEventDelete();
