@@ -8,6 +8,10 @@ const engWord = document.getElementById("eng"),
 let words;
 let btnDelete;
 
+localStorage.length < 1
+  ? (words = [])
+  : (words = JSON.parse(localStorage.getItem("words")));
+
 addButton.addEventListener("click", () => {
   if (
     engWord.value.lenght < 1 ||
@@ -22,6 +26,8 @@ addButton.addEventListener("click", () => {
     for (let key of inputs) {
       key.classList.remove("error");
     }
+    words.push(new CreateWord(engWord.value, rusWord.value))
+    localStorage.setItem("words",JSON.stringify(words));
   }
 });
 
