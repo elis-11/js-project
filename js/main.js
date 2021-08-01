@@ -17,12 +17,16 @@ const addWordToTable = (index) => {
   <tr class="tr">
   <td class="eng-word">${words[index].english}</td>
   <td class="rus-word">${words[index].russian}</td>
-  <td class="eng-word">
+  <td>
   <button class="btn-delete"></button>
   </td>
   </tr>
   `;
 };
+
+words.forEach((element,i) => {
+  addWordToTable(i)
+})
 
 addButton.addEventListener("click", () => {
   if (
