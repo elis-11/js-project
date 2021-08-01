@@ -81,7 +81,7 @@ table {
   position: relative;
 }
 .btn-delate {
-  background-image: "fa fa-times" aria-hidden="true";
+  background-image: url("../img/btn-delete.png");
   background-repeat: no-repeat;
   background-position: center;
   width: 17px;

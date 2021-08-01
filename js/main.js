@@ -18,7 +18,7 @@ localStorage.length < 1
 //       <td class="eng-word">${words[index].english}</td>
 //       <td class="eng-word">${words[index].russian}</td>
 //       <td class="eng-word">
-//         <button class="btn-delete">x</button>
+//         <button class="btn-delete"></button>
 //       </td>
 //     </tr>
 //   );
