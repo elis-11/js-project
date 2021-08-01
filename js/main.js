@@ -5,7 +5,7 @@ const engWord = document.getElementById("eng"),
   addButton = document.getElementById("add-word-btn"),
   table = document.getElementById("table");
 
-let Words;
+let words;
 let btnDelete;
 
 const CreateWord = (english, russian) => {
