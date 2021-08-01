@@ -1,1 +1,2 @@
-# js-project
+# JS-PROJECT
+VOCABULARY
