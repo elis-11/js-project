@@ -1,5 +1,14 @@
-const engWord = document.getElementById("eng"),
-  engWord = document.getElementById("rus"),
-  inputs = document.getElementsByClassName("input"),
-  addButton = document.getElementById("add-word-btn"),
-  table = document.getElementById("table");
+console.log(tralala);
+// const engWord = document.getElementById("eng"),
+//   rusWord = document.getElementById("rus"),
+//   inputs = document.getElementsByClassName("input"),
+//   addButton = document.getElementById("add-word-btn"),
+//   table = document.getElementById("table");
+
+// let Words;
+// let btnDelete;
+
+// const CreateWord = (english, russian) => {
+//   this.english = english;
+//   this.russian = russian;
+// };
