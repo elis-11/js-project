@@ -12,4 +12,3 @@ const CreateWord = (english, russian) => {
   this.english = english;
   this.russian = russian;
 };
-ööööö
