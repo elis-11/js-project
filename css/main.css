@@ -81,7 +81,7 @@ table {
   position: relative;
 }
 .btn-delate {
-  background-image: url("./btn-delete.png");
+  background-image: url("../img/btn-delete.svg");
   background-repeat: no-repeat;
   background-position: center;
   width: 17px;
